@@ -1,0 +1,35 @@
+FUENTES Y CATÁLOGO DE AUDIO — FVT Grupo 4 · V4
+================================================
+
+El programa ya no depende de una lista fija de 11 canciones.
+
+Cuando hay Internet consulta la API pública de Wikimedia Commons y construye un pool
+de audios de estas categorías:
+- Audio files of Baroque period classical music
+- Audio files of Classical period classical music
+- Audio files of Romantic period classical music
+- Audio files of music by Claude Debussy
+- Audio files of music by Maurice Ravel
+- Audio files of jazz music
+- Audio files of blues
+- Audio files of rock music
+- Audio files of folk music
+- Audio files of electronic music
+- Audio files of hip hop music
+
+Cada archivo conserva su propia ficha/licencia en Wikimedia Commons.
+El programa evita repetir cualquiera de las últimas 50 piezas.
+
+LISZT / RÉMINISCENCES
+El programa hace búsquedas adicionales en Commons por:
+- Réminiscences de Don Juan
+- Réminiscences de Norma
+- Réminiscences des Huguenots
+- Réminiscences de Lucrezia Borgia
+
+Si Commons devuelve una grabación compatible, se incorpora automáticamente al pool
+Romanticismo. Como respaldo romántico también se incluye la Segunda Rapsodia Húngara.
+
+IMSLP documenta realizaciones libres de Réminiscences de Don Juan, S.418, incluidas
+realizaciones digitales con sonido de Érard y Bechstein. Esas páginas se dejan como
+referencia, pero el programa no intenta extraer archivos de IMSLP automáticamente.
